@@ -1,1 +1,1 @@
-## Experiment name
+## Dynamic Analysis of Four Bar Mechanism 
