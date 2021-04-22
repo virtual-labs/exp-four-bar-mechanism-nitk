@@ -1,0 +1,1 @@
+The purpose of this experiment is to understand the analysis involved in the offset analysis, acceleration of center of gravity of links, forces on each link of four bar mechanism, with the help of position diagram, velocity and acceleration diagram.  
