@@ -22,11 +22,11 @@
     <li>Tejas Pethker | NITK</li>
     <li>Rohit Rajpal | NITK</li>
     <li>Amrit | NITK</li>
-    <li>Avinash Vishwambharan | NITK</li>
     <li>Umanath R Poojary | NITK</li>
     <li>Praveen Shenoy | NITK</li>
     <li>Kiran Katari | NITK</li>
     <li>Sanjay Sharma | NITK</li>
+    <li>Avinash Vishwambharan | NITK</li>
     <li>Ashish Dwivedi | NITK</li>
     <li>Abhay| NITK</li>
      </ul></td>
