@@ -8,9 +8,8 @@
 4. Assess and compare velocity, acceleration, acceleration of CG, offset dimensions, force of the calculated value with the simulator.
 5. Evaluate how change in length, angle and driving force results in change of acceleration, velocity and work done by the mechanism.
 
-
-
 #### Theory
+
 A four bar link mechanism or linkage is the most fundamental of the plane kinematics linkages. It is a much-preferred mechanical device for the mechanization and control of motion due to its simplicity and versatility<a href="references.html">[1]</a>. Basically, it consists of four rigid links which are connected in the form of quadrilateral by four pin joints. If a link completes its full rotation then it’s a crank motion and if it oscillates then rocker motion, the link opposite to the fixed link is the coupler and adjacent to fixed link are input and output link.
 
 The dynamic analysis of the four bar mechanism is covered after understanding the kinematic analysis since the acceleration of the links are required to calculate the forces on the link. The analysis involves the offset analysis, acceleration of CG, forces on each link of four bar mechanism, with the help of position diagram, velocity and acceleration diagram.
@@ -41,7 +40,7 @@ Link3:
 
 <center><img src="images/formula3.png" height="253" width="250"></center>
 
-Linear acceleration of <img src="./images/equations/g3.png" title="G_3" />  (i.e., <img src="./images/equations/ag3.png" title="AG_3" /> is in the direction of <img src="./images/equations/og3.png" title="Og_3" /> of acceleration polygon).
+Linear acceleration of <img src="./images/equations/g3.png" title="G_3" /> (i.e., <img src="./images/equations/ag3.png" title="AG_3" /> is in the direction of <img src="./images/equations/og3.png" title="Og_3" /> of acceleration polygon).
 
 <img src="./images/equations/f3.png" title="F_3" /> = accelerating force
 
@@ -56,4 +55,4 @@ Link4:
 <center><img src="images/formula5.png" height="280" width="380"></center>
 
 <center><img src="./images/equations/h4.png" title="h_4 = \frac {I_4 \alpha_4}{M_4 AG_4}" />&nbsp;&nbsp;&nbsp;<a href="references.html"> [2]</a></center><br>
-<center>(Equations Source: <a href="http://latex.codecogs.com/">latex.codecogs.com</a>)</center>
+<center>(Equations Generation Source: <a href="http://latex.codecogs.com/">latex.codecogs.com</a>)</center>
