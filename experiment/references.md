@@ -17,7 +17,7 @@
     <li>Nishan B Shetty | NITK</li>
     <li>Rohit Kushawa | NITK</li>
     <li>Vishwas | NITK</li>
-    <li>Akshaya| NITK</li>
+    <li>Akshaya | NITK</li>
     <li>Anusha B Salian | NITK</li>
     <li>Tejas Pethker | NITK</li>
     <li>Rohit Rajpal | NITK</li>
