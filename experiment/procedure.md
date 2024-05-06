@@ -1,23 +1,41 @@
-#### These procedure steps will be followed on the simulator
+### Procedure
 
-1. In simulation window the motion of position diagram, velocity and acceleration diagram is shown.<br>
-2. There are pointers given on right side of the screen under the variable tab to change the values of r1, r2, r3, r4 and theta 2, and navigation, play/pause and reverse button under control tab. Navigation buttons are given on the simulator screen for navigation on the simulator screen.<br>
-![alt text](images/fourbar1.png)<br>
+<div style="text-align:left">
+  Click on the Simulation icon    <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation screen. 
 
-3. After moving on to the next page of simulator screen and variable tab, change value of m2, m3, m4 of the link, the acceleration of center of gravity of the link is shown.<br>
-![alt text](images/fourbar2.png)<br>
+   ![Alt text](images/procedure_1a.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;"> and to change the variables click on the Next<img src="images/next1.png" alt="Alt text" style="height:80px; width:80px;"> or Previous button <img src="images/prev1.png" alt="Alt text" style="height:80px; width:80px;"> inside the variable section.
 
-4. Navigate to the next page on the simulator screen. Analyse the offset analysis results from the table after pausing the animation.<br>
-![alt text](images/fourbar3.png)<br>
+   ![Alt text](images/var2.png)
+   
 
-5. Navigate to the next page of simulator screen and variable tab and change T4, and reverse the animation using the control tab. On simulator observe the force acting on each link.<br>
-![alt text](images/fourbar4.png)<br>
 
-6. Navigating to the next page of simulator will show an experiment page where user can choose any experiment from experiment of acceleration of CG, experiment of offset analysis, experiment of force, user can start the experiment using start experiment button under control tab.<br>
-![alt text](images/fourbar5.png)<br>
 
-7. Select any experiment, the simulator will open experiment page where all the variables are constant (randomize after resetting the experiment) in the variable tab. Navigate to the variable tab from control tab. User can select any link to perform the experiment in the simulator page on the dropdown bar. User have to use the variables from the variable tab for calculation. The calculated values can be verified using the check box.<br>
-![alt text](images/fourbar6.png)<br>
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
 
-8. After performing the experiment, the user can stop the experiment to exit the experiment and choose another experiment or can reset the same experiment using the control tab. <br>
-![alt text](images/fourbar7.png)<br>
+   Click on the Rotate icon  <img src="images/rotate clockwise.png" alt="Alt text" style="height:80px; width:80px;"> to change the direction of rotation.
+   
+    
+ Click on the Next or Prev icon <img src="images/next2.png" style="height:80px; width:80px;">  <img src="images/prev.png" style="height:80px; width:80px;"> to cycle through different diagrams. After that, choose one of the experiments.
+
+
+
+   ![Alt text](images/chooseExp.png)
+
+   After selecting the experiment, click on the "Start Experiment" button in the control section.
+
+   ![Alt text](images/controlStartBtn.png)
+
+  Click the "Check" button to obtain the right answer after selecting the axis and entering the input values.
+   ![Alt text](images/correctAns.png)
+
+   Click on the "Stop Experiment" button to Reset or exit the experiment.
+
+   ![Alt text](images/stopexp.png)
+
+   ![Alt text](images/resetandexitcntrls.png)
+
+</div>
+
+

@@ -2,32 +2,36 @@
 
 #### Learning Objectives:
 
-1. State the concepts of dynamic analysis of four bar mechanisms
-2. Explain the significance of the parameter and select the variables accordingly. Parameters are velocity, angular velocity, acceleration, angular acceleration and forces. Variables are link lengths, mass of links, input angular velocity and torque.
-3. Calculate the velocity, acceleration and force acting on each link.
-4. Assess and compare velocity, acceleration, acceleration of CG, offset dimensions, force of the calculated value with the simulator.
-5. Evaluate how change in length, angle and driving force results in change of acceleration, velocity and work done by the mechanism.
-
-
+1. To state the concepts of dynamic analysis of four bar mechanisms
+2. To explain the significance of the parameter and select the variables accordingly. The parameters are velocity, angular velocity, acceleration, angular acceleration and forces. The variables are link lengths, mass of links, input angular velocity and torque.
+3. To calculate the velocity, acceleration and force acting on each link.
+4. To compare velocity, acceleration, acceleration of CG, offset dimensions, and force of the calculated value with the simulator.
+5. To evaluate how the change in length, angle and driving force, results in change of acceleration, velocity and work done by the mechanism.
 
 #### Theory
-A four bar link mechanism or linkage is the most fundamental of the plane kinematics linkages. It is a much-preferred mechanical device for the mechanization and control of motion due to its simplicity and versatility<a href="references.html">[1]</a>. Basically, it consists of four rigid links which are connected in the form of quadrilateral by four pin joints. If a link completes its full rotation then it’s a crank motion and if it oscillates then rocker motion, the link opposite to the fixed link is the coupler and adjacent to fixed link are input and output link.
+
+A four bar link mechanism or linkage is the most fundamental of the plane kinematics linkages. It is a much-preferred mechanical device for the mechanizations and control of motion due to its simplicity and versatility<a href="references.html">[1]</a>. It consists of four rigid links, which are connected in the form of quadrilateral by four pin joints. If a link completes its full rotation then it is a crank motion and if it oscillates then it is a rocker motion, the link opposite to the fixed link is the coupler and adjacent to fixed link are input and output link.
 
 The dynamic analysis of the four bar mechanism is covered after understanding the kinematic analysis since the acceleration of the links are required to calculate the forces on the link. The analysis involves the offset analysis, acceleration of CG, forces on each link of four bar mechanism, with the help of position diagram, velocity and acceleration diagram.
 
-OABC is a 4–bar mechanism. Link 2 rotates with constant angular velocity ω2. <img src="./images/equations/g2.png" title="G_2" />, <img src="./images/equations/g3.png" title="G_3" /> & <img src="./images/equations/g4.png" title="G_4" /> are the center of gravity and m<sub>2</sub>, m<sub>3</sub> & m<sub>4</sub> the masses of links 2, 3 & 4 respectively.
+**Steps involved in analysis of a four bar link mechanism.**
 
-<center><img src="images/formula.png" height="253" width="400"></center>
+OABC is a four–bar link mechanism, as shown in Fig 1. The Link 2 rotates with constant angular velocity ω2. <img src="./images/equations/g2.png" title="G_2" />, <img src="./images/equations/g3.png" title="G_3" /> & <img src="./images/equations/g4.png" title="G_4" /> are the center of gravity and m<sub>2</sub>, m<sub>3</sub> & m<sub>4</sub> the masses of links 2, 3 & 4 respectively.
 
-1. Draw the velocity & acceleration polygons for determine the linear acceleration of <img src="./images/equations/g2.png" title="G_2" />, <img src="./images/equations/g3.png" title="G_3" /> & <img src="./images/equations/g4.png" title="G_4" />
+<center><img src="images/formula.png" height="253" width="400"></center>           
+<center>Fig 1. Four Bar link Mechanism</center>
+
+1. Draw the velocity & acceleration polygons for determine the linear acceleration of <img src="./images/equations/g2.png" title="G_2" />, <img src="./images/equations/g3.png" title="G_3" /> & <img src="./images/equations/g4.png" title="G_4" /> as shown in Fig 2.
 
 2. Magnitude and sense of <img src="./images/equations/alpha3.png" title="\alpha_3" /> & <img src="./images/equations/alpha4.png" title="\alpha_4" />(angular acceleration) are determined using the results of step 1.
 
 <center><img src="images/formula1.png" height="300" width="350"></center>
 
+<center>Fig 2. Acceleration Polygon </center>
+
 To determine inertia forces and couples
 
-Link 2:
+For Link 2:
 
 <img src="./images/equations/f2.png" title="F_2" /> = accelerating force (towards O)
 
@@ -37,11 +41,15 @@ Since <img src="./images/equations/omega.png" title="\omega" /> is constant, <im
 
 <center><img src="images/formula2.png" height="253" width="200"></center>
 
-Link3:
+<center>Fig 3. Forces acting on Link 2</center>
+
+For Link3:
 
 <center><img src="images/formula3.png" height="253" width="250"></center>
 
-Linear acceleration of <img src="./images/equations/g3.png" title="G_3" />  (i.e., <img src="./images/equations/ag3.png" title="AG_3" /> is in the direction of <img src="./images/equations/og3.png" title="Og_3" /> of acceleration polygon).
+<center>Fig 4. Forces acting on Link 3</center>
+
+Linear acceleration of <img src="./images/equations/g3.png" title="G_3" /> (i.e., <img src="./images/equations/ag3.png" title="AG_3" /> is in the direction of <img src="./images/equations/og3.png" title="Og_3" /> of acceleration polygon).
 
 <img src="./images/equations/f3.png" title="F_3" /> = accelerating force
 
@@ -55,5 +63,7 @@ Link4:
 
 <center><img src="images/formula5.png" height="280" width="380"></center>
 
+<center>Fig 5. Forces acting on Link 4</center>
+
 <center><img src="./images/equations/h4.png" title="h_4 = \frac {I_4 \alpha_4}{M_4 AG_4}" />&nbsp;&nbsp;&nbsp;<a href="references.html"> [2]</a></center><br>
-<center>(Equations Source: <a href="http://latex.codecogs.com/">latex.codecogs.com</a>)</center>
+<center>(Equations Generation Source: <a href="http://latex.codecogs.com/">latex.codecogs.com</a>)</center>
